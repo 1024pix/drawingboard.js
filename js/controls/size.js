@@ -111,6 +111,7 @@ DrawingBoard.Control.Size = DrawingBoard.Control.extend({
 			smile = ':)',
 			docElement = document.documentElement,
 			inputElemType = 'range',
+			defaultView,
 			available;
 		inputElem.setAttribute('type', inputElemType);
 		available = inputElem.type !== 'text';
